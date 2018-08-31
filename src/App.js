@@ -1,6 +1,5 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import "./App.css";
-
 import Card from "./components/Card";
 import routines from "./data/data";
 
@@ -13,9 +12,8 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-
-                {this.state.routines.map((routine, index) => <Card title={routine.title} todos={routine.todos} />)}
-
+                {this.state.routines.map((routine, index) =>
+                    <Card key={routine.title} title={routine.title} todos={routine.todos} />)}
             </div>
         );
     }
