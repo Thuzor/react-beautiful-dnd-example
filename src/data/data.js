@@ -1,4 +1,5 @@
 let morning = {
+    id: 1,
     title: 'Morning',
     todos: [
         {id: 0, text: 'Wake Up'},
@@ -9,7 +10,9 @@ let morning = {
     ]
 };
 let day = {
-    title: 'Day', todos: [
+    id: 2,
+    title: 'Day',
+    todos: [
         {id: 5, text: 'Go To Work'},
         {id: 6, text: 'Meetings'},
         {id: 7, text: 'Lunch'},
@@ -18,7 +21,9 @@ let day = {
     ]
 };
 let evening = {
-    title: 'Evening', todos: [
+    id: 3,
+    title: 'Evening',
+    todos: [
         {id: 10, text: 'Gym'},
         {id: 11, text: 'Pub'},
         {id: 12, text: 'Food'}
@@ -26,7 +31,9 @@ let evening = {
 };
 
 let night = {
-    title: 'Night', todos: [
+    id: 4,
+    title: 'Night',
+    todos: [
         {id: 13, text: 'Read'},
         {id: 14, text: 'Brush Teeth'},
         {id: 15, text: 'Sleep'}

@@ -15,6 +15,7 @@ class App extends Component {
                 {this.state.routines.map((routine, index) =>
                     <Card key={routine.title} title={routine.title} todos={routine.todos} />)}
             </div>
+                        <Card key={routine.id} id={routine.id} title={routine.title} todos={routine.todos} />)}
         );
     }
 }
